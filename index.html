@@ -329,6 +329,7 @@
 			var contentTop      =   [];
 			var contentBottom   =   [];
 			var winTop      =   $(window).scrollTop();
+			console.log(winTop);
 			var rangeTop    =   200;
 			var rangeBottom =   500;
 			$('.navmenu').find('a').each(function(){
@@ -336,6 +337,7 @@
 				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
 			})
 			$.each( contentTop, function(i){
+				console.log(winTop, contentTop[i],rangeTop ,winTop , contentBottom[i] ,rangeBottom);
 				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
 					$('.navmenu li')
 					.removeClass('active')
