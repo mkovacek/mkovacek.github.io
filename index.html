@@ -241,6 +241,13 @@
 	});
 	</script>
 	<script>
+		$(document).ready(function(){
+			$('.navmenu ul li a').click(function() {  
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+		});
+	
 		/*menu*/
 		/*function calculateScroll() {
 			var contentTop      =   [];
