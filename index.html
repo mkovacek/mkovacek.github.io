@@ -241,15 +241,8 @@
 	});
 	</script>
 	<script>
-		$(document).ready(function(){
-			$('.navmenu ul li a').click(function() {  
-				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
-				return false;
-			});
-		});
-	
 		/*menu*/
-		/*function calculateScroll() {
+		function calculateScroll() {
 			var contentTop      =   [];
 			var contentBottom   =   [];
 			var winTop      =   $(window).scrollTop();
@@ -279,7 +272,7 @@
 				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
 				return false;
 			});
-		});		*/
+		});
 	</script>	
 
     <script src="js/modernizr.custom.js"></script>
