@@ -18,9 +18,9 @@ body{font-family:'Roboto', 'sans-serif';}
 #menu select{display:none;}
 #menu li{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;border-right:1px solid #000;padding-left:17px;padding-right:16px;float:left;font-family:'Roboto', 'sans-serif';font-size:14px;color:#fff;list-style:none;text-transform:uppercase;font-weight:700;}
 #menu li:last-child{border-right:0;padding-right:0px;}
-#menu{//margin-top:33px;margin-top:74px;float:right;}
+#menu{margin-top:33px;margin-top:74px;float:right;}
 #menu li a{color:#fff;text-decoration:none;}
-#menu li a:hover{border:none;outline:none;color:#9E9E9E;}
+#menu li a:hover{border:none;outline:none;color:#9E9E9E; font-weight: 900}
 .banner{background:url(../images/banner.jpg) no-repeat 0px 0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;text-align:center;min-height:750px;}
 .banner-info{width:65%;}
 .banner-right h1{font-size:34px;font-weight:800;color:#ffffff;margin:35px 0 15px 0;letter-spacing:15px;}
@@ -243,21 +243,21 @@ textarea{border-radius:4px;padding-top:10px;padding-bottom:10px;border:0px;font-
 .footer .subS{text-transform:uppercase;font-size:13px;font-family:'Roboto', 'sans-serif';font-weight:700;float:left;color:#fff;border-radius:0 4px 4px 0;text-decoration:none;box-shadow:0px 2px 0px 0px #179abf;background:#9E9E9E;padding:10px;padding-right:20px;padding-left:20px;}
 .fr{margin-top:10px;text-align:center;//margin:40px 0 0 357px;}
 .mails{color:#101010;font-weight:500;}
-.footer a:hover{color:#9E9E9E;text-decoration:none;}
+.mails a:hover{color:#101010;font-weight:600; text-decoration: none; text-transform: uppercase; line-height: 2px;}
 /**/.soc ul li{margin-bottom:20px;margin-right:23px;float:left;text-align:center;text-decoration:none;list-style:none;}
 .soc{margin-top:42px;text-align:center;}
 .soc ul{margin-left:24px;padding-left:0;display:inline-block;}
-.soc1 a{display:inline-block;height:17px;width:17px;background:url(../images/socIcons.png)no-repeat;margin-top:15px;margin-left:2px;}
+.soc1 a{display:inline-block;height:17px;width:17px;background:url(../images/li.png)no-repeat center;margin-top:-2px;margin-left:-2px;padding: 25px 25px 25px 25px;}
 .soc1{width:52px;height:52px;border:2px solid #fdfdfc;border-radius:50px;}
-.soc1 a:hover{border:0;background:url(../images/socIcons.png)no-repeat;box-shadow:none;}
+.soc1 a:hover{border:0;background:url(../images/li.png)no-repeat center;box-shadow:none;}
 .soc1:hover{cursor:pointer;border:2px solid #1c1c1c;background:#1c1c1c;}
-.soc2 a{display:inline-block;height:17px;width:17px;background:url(../images/socIcons.png) -74px 0 no-repeat;margin-top:15px;margin-left:2px;}
+.soc2 a{display:inline-block;height:17px;width:17px;background:url(../images/f.png)no-repeat center;margin-top:-2px;margin-left:-2px;padding: 25px 25px 25px 25px;}
 .soc2{width:52px;height:52px;border:2px solid #fdfdfc;border-radius:50px;}
-.soc2 a:hover{border:0;background:url(../images/socIcons.png) -74px 0 no-repeat;box-shadow:none;}
+.soc2 a:hover{border:0;background:url(../images/f.png) no-repeat center;box-shadow:none;}
 .soc2:hover{cursor:pointer;border:2px solid #1c1c1c;background:#1c1c1c;}
-.soc3 a{display:inline-block;height:19px;width:19px;background:url(../images/socIcons.png) -147px 0 no-repeat;margin-top:15px;margin-left:0px;}
+.soc3 a{display:inline-block;height:19px;width:19px;background:url(../images/t.png) no-repeat center;margin-top:-2px;margin-left:-2px;padding: 25px 25px 25px 25px;}
 .soc3{width:52px;height:52px;border:2px solid #fdfdfc;border-radius:50px;}
-.soc3 a:hover{border:0;background:url(../images/socIcons.png) -147px 0 no-repeat;box-shadow:none;}
+.soc3 a:hover{border:0;background:url(../images/t.png) no-repeat center;box-shadow:none;}
 .soc3:hover{cursor:pointer;border:2px solid #1c1c1c;background:#1c1c1c;}
 .soc4 a{display:inline-block;height:19px;width:19px;background:url(../images/socIcons.png) -221px 0 no-repeat;margin-top:15px;margin-left:0px;}
 .soc4{width:52px;height:52px;border:2px solid #fdfdfc;border-radius:50px;}
@@ -271,9 +271,9 @@ textarea{border-radius:4px;padding-top:10px;padding-bottom:10px;border:0px;font-
 .soc6{width:52px;height:52px;border:2px solid #fdfdfc;border-radius:50px;}
 .soc6 a:hover{border:0;background:url(../images/socIcons.png) -368px 0 no-repeat;box-shadow:none;}
 .soc6:hover{cursor:pointer;border:2px solid #1c1c1c;background:#1c1c1c;}
-.soc7 a{display:inline-block;height:19px;width:19px;background:url(../images/socIcons.png) -442px 0 no-repeat;margin-top:15px;margin-left:0px;}
+.soc7 a{display:inline-block;height:19px;width:19px;background:url(../images/g.png)no-repeat center;margin-top:-2px;margin-left:-2px;padding: 25px 25px 25px 25px;}
 .soc7{width:52px;height:52px;border:2px solid #fdfdfc;border-radius:50px;}
-.soc7 a:hover{border:0;background:url(../images/socIcons.png) -442px 0 no-repeat;box-shadow:none;}
+.soc7 a:hover{border:0;background:url(../images/g.png) no-repeat center;box-shadow:none;}
 .soc7:hover{cursor:pointer;border:2px solid #1c1c1c;background:#1c1c1c;}
 .soc8 a{display:inline-block;height:19px;width:19px;background:url(../images/socIcons.png) -516px 0 no-repeat;margin-top:15px;margin-left:0px;}
 .soc8{width:50px;height:50px;border:2px solid #fdfdfc;border-radius:50px;}
