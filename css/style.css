@@ -243,7 +243,6 @@ textarea{border-radius:4px;padding-top:10px;padding-bottom:10px;border:0px;font-
 .footer .subS{text-transform:uppercase;font-size:13px;font-family:'Roboto', 'sans-serif';font-weight:700;float:left;color:#fff;border-radius:0 4px 4px 0;text-decoration:none;box-shadow:0px 2px 0px 0px #179abf;background:#9E9E9E;padding:10px;padding-right:20px;padding-left:20px;}
 .fr{margin-top:10px;text-align:center;//margin:40px 0 0 357px;}
 .mails{color:#101010;font-weight:500;}
-.mails a:hover{color:#101010;font-weight:600; text-decoration: none; text-transform: uppercase; line-height: 2px;}
 /**/.soc ul li{margin-bottom:20px;margin-right:23px;float:left;text-align:center;text-decoration:none;list-style:none;}
 .soc{margin-top:42px;text-align:center;}
 .soc ul{margin-left:24px;padding-left:0;display:inline-block;}
@@ -334,3 +333,4 @@ textarea{border-radius:4px;padding-top:10px;padding-bottom:10px;border:0px;font-
 .wagwep-container ul#portfolio-filter a:hover{background:#F44336;}
 .og-grid li a figure span{border-bottom:1px solid rgba(255, 255, 255, 0.5);color:rgba(255, 255, 255, 0.9);display:block;font-weight:normal;margin:40% 20px 20px;padding:10px 0;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);text-transform:uppercase;}
 .wagwep-container ul#portfolio-filter li{display:inline-block;float:none;}
+a:hover{color:#101010;font-weight:600; text-decoration: none;}
