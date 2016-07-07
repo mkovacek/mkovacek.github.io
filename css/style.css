@@ -20,6 +20,7 @@ body{font-family:'Roboto', 'sans-serif';}
 .border{background:#ffffff;width:70%;margin:0 auto;padding:1px;}
 .gallery{height:100px;}
 .slicknav_menu{display:none;}
+.responsive {margin: 0 auto;}
 @media screen and (max-width:991px){
 #menu{display:none;}
 #menuF{opacity:0 !important;}
